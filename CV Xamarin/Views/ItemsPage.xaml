@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CV_Xamarin.Views.ItemsPage"
-             Title="{Binding Title}"
+             Title="Datos Personales"
              xmlns:local="clr-namespace:CV_Xamarin.ViewModels"  
              xmlns:model="clr-namespace:CV_Xamarin.Models"  
              x:Name="BrowseItemsPage">
@@ -20,15 +20,25 @@
                 SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout Padding="10" x:DataType="model:Item">
-                        <Label Text="{Binding Text}" 
+                    <StackLayout Padding="20" x:DataType="model:Item">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="20"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            
+                            <Label FontFamily="fontello" Text="&#xE800;" HorizontalOptions="Start" Grid.Column="0" />
+                            <Label Text="{Binding Text}" 
                             LineBreakMode="NoWrap" 
                             Style="{DynamicResource ListItemTextStyle}" 
-                            FontSize="16" />
-                        <Label Text="{Binding Description}" 
-                            LineBreakMode="NoWrap"
-                            Style="{DynamicResource ListItemDetailTextStyle}"
-                            FontSize="13" />
+                            FontSize="16"
+                            Grid.Column="1"
+                            FontAttributes="Bold" />
+                        </Grid>
+                        <Label Text="{Binding Description}"
+                        LineBreakMode="NoWrap"
+                        Style="{DynamicResource ListItemDetailTextStyle}"
+                        FontSize="13" />
                         <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer 
                                 NumberOfTapsRequired="1"

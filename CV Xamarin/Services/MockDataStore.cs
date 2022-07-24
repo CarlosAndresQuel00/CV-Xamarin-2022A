@@ -14,12 +14,12 @@ namespace CV_Xamarin.Services
         {
             items = new List<Item>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Edad", Description="21 años" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Dirección", Description="Francisco Pérez de Quezada y Diego de Palomino, Quito" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Teléfono móvil", Description="0999040706" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Correo electrónico", Description="carlos.quel@epn.edu.ec" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Experiencia", Description="Dirección Metropolitana de Informática - Quito" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Referencia", Description="BanEcuador gerencia financiera" }
             };
         }
 
