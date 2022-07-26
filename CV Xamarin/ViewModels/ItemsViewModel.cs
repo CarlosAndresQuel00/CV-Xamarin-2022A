@@ -1,6 +1,8 @@
 ﻿using CV_Xamarin.Models;
 using CV_Xamarin.Views;
 using System;
+using System.Windows.Input;
+using Xamarin.Essentials;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
@@ -20,6 +22,7 @@ namespace CV_Xamarin.ViewModels
         public ItemsViewModel()
         {
             Title = "Browse";
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://ec.linkedin.com/in/carlos-quel-830627219"));
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
@@ -27,6 +30,8 @@ namespace CV_Xamarin.ViewModels
 
             AddItemCommand = new Command(OnAddItem);
         }
+
+        public ICommand OpenWebCommand { get; }
 
         async Task ExecuteLoadItemsCommand()
         {

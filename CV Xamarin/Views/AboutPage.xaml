@@ -23,27 +23,17 @@
         <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                 <ContentView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                    <Image Source="profile.png" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100"/>
+                    <Image Source="xamarin_logo.png" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100"/>
                 </ContentView>
             </StackLayout>
         </StackLayout>
         <ScrollView Grid.Row="1">
             <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
-                <Label Text="Hoja de Vida" FontSize="Title" FontAttributes="Bold"/>
-                <Label Text="Soy estudiante de la Escuela Politécnica Nacional."
+                <Label Text="Hojas de Vida" FontSize="Title" FontAttributes="Bold"/>
+                <Label Text="Presentación de Hojas de Vida"
                        FontSize="16"
                        Padding="0,0,0,0"/>
-                <Label FontSize="16" Padding="0,24,0,0">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="Page "/>
-                                <Span Text="https://www.linkedin.com/in/dwehner" FontAttributes="Bold"/>
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Button Margin="0,10,0,0" Text="Linkedin"
+                <Button Margin="0,10,0,0" Text="Click Here"
                         Command="{Binding OpenWebCommand}"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" />

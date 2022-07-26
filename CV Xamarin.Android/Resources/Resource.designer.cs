@@ -14,7 +14,7 @@ namespace CV_Xamarin.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.3.3.31")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
 	public partial class Resource
 	{
 		
@@ -11788,7 +11788,7 @@ namespace CV_Xamarin.Droid
 			public const int notify_panel_notification_icon_bg = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int profile = 2131165328;
+			public const int pictureCV = 2131165328;
 			
 			// aapt resource value: 0x7F070091
 			public const int rob = 2131165329;

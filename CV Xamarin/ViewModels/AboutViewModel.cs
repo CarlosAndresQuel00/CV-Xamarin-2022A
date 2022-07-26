@@ -10,7 +10,7 @@ namespace CV_Xamarin.ViewModels
         public AboutViewModel()
         {
             Title = "About";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://www.linkedin.com/in/dwehner"));
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://www.youtube.com"));
         }
 
         public ICommand OpenWebCommand { get; }

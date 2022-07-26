@@ -14,12 +14,12 @@ namespace CV_Xamarin.Services
         {
             items = new List<Item>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Edad", Description="31 años" },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Dirección", Description="Villaflora y Maldonado, Quito" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Edad", Description="21 años" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Dirección", Description="Quito Sur, Quito" },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Teléfono móvil", Description="0996989414" },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Correo electrónico", Description="dwehner@gmail.com" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Correo electrónico", Description="carlos.quel@epn.edu.ec" },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Experiencia", Description="CNT - Quito" },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Referencia", Description="Pichincha gerencia Bancaria" }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Referencia", Description="Santiago - Pichincha gerencia Bancaria" }
             };
         }
 
