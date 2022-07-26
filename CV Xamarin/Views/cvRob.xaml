@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CV_Xamarin.Views.cvRob"
+             Title="Datos Personales"
+             xmlns:vm="clr-namespace:CV_Xamarin.ViewModels"
+             x:Name="BrowseItemsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame Margin="10"
+                BorderColor="Black"
+                CornerRadius="50"
+                HeightRequest="60"
+                 WidthRequest="60"
+                IsClippedToBounds="True"
+                HorizontalOptions="Center"
+                VerticalOptions="Center">
+                <Image Source="rob.jpg"
+                    Aspect="AspectFill"
+                    Margin="-20"
+                    HeightRequest="100"
+                    WidthRequest="100" />
+            </Frame>
+
+            <Frame BorderColor="Gray"
+            CornerRadius="5"
+            Padding="8">
+                <StackLayout>
+                    <Label Text="Sobre Mi"
+                    FontSize="Medium"
+                    FontAttributes="Bold" />
+                    <BoxView Color="Gray"
+                    HeightRequest="2"
+                    HorizontalOptions="Fill" />
+                    <Label Text="Roberth Pincha"/>
+                    <Label Text="3542 Av. Mariscal Sucre · La gasca, CO 80810 · (317) 585-8468"/>
+                    <Label Text="Tengo experiencia en el aprovechamiento de marcos ágiles para proporcionar una sinopsis sólida para resúmenes de alto nivel. Los enfoques iterativos de la estrategia corporativa fomentan el pensamiento colaborativo para promover la propuesta de valor general."/>
+                    <Label Text="Programador innovador y emprendedor de Internet que se empeña en hacer del mundo un lugar más unido y conectado. Dominio del desarrollo de software y del trabajo con diferentes estructuras de datos."/>
+                </StackLayout>
+
+            </Frame>
+
+
+            <Frame BorderColor="Gray"
+            CornerRadius="5"
+            Padding="8">
+                <StackLayout>
+                    <Label Text="Experiencia"
+                    FontSize="Medium"
+                    FontAttributes="Bold" />
+                    <BoxView Color="Gray"
+                    HeightRequest="2"
+                    HorizontalOptions="Fill" />
+                    <Label Text="Programador Full Stack" FontSize="20" FontAttributes="Bold"/>
+                    <Label Text="Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL, HTML5."/>
+                    <Label Text="Realización de test de aplicaciones."/>
+                    <Label Text="Marzo 2021 - Junio 2021" FontSize="10"/>
+                </StackLayout>
+
+            </Frame>
+
+
+            <Button Text="Open Linkedin"
+                Margin="20"
+                Clicked="OnButtonClicked"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="#1b89c0"
+                TextColor="White"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

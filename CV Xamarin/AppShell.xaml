@@ -32,6 +32,7 @@
     <TabBar>
         <ShellContent Title="Info" Icon="icon_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
         <ShellContent Title="Data" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <ShellContent Title="Data 2" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:cvRob}" />
     </TabBar>
 
     <!--
