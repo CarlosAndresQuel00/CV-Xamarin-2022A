@@ -23,4 +23,5 @@ Mobile App Development to show cv with XAMARIN
 
 #Luis Jacome
 
-![luis](https://user-images.githubusercontent.com/58127103/181163320-e3c02535-22a6-46f9-a68c-2f3c54981227.png)
+![luis](https://user-images.githubusercontent.com/58127103/181163534-ada56c66-5a81-434b-83aa-ac986d487366.png)
+
