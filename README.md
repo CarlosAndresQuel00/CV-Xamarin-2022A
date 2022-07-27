@@ -25,3 +25,14 @@ Mobile App Development to show cv with XAMARIN
 
 ![luis](https://user-images.githubusercontent.com/58127103/181163534-ada56c66-5a81-434b-83aa-ac986d487366.png)
 
+# Pruebas de compatibilidad - Funcionamiento del APK
+
+* BlueStack
+
+![image](https://user-images.githubusercontent.com/58041699/181391505-6e8c2a10-d9b9-4e1b-96b0-0913838e34cd.png)
+
+![image](https://user-images.githubusercontent.com/58041699/181391532-1581b7ac-a7a7-46c3-a77a-3cb8139ad7b6.png)
+
+![image](https://user-images.githubusercontent.com/58041699/181391555-d59f9aa2-a2e4-431b-995e-b03b23ac7fbe.png)
+
+![image](https://user-images.githubusercontent.com/58041699/181391590-ff82e195-5e1a-4643-aabe-5fa72dc27533.png)
