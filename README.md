@@ -29,6 +29,8 @@ Mobile App Development to show cv with XAMARIN
 
 * BlueStack
 
+![image](https://user-images.githubusercontent.com/58041699/181391701-cc1be75e-b41e-4422-9aff-63890ee70837.png)
+
 ![image](https://user-images.githubusercontent.com/58041699/181391505-6e8c2a10-d9b9-4e1b-96b0-0913838e34cd.png)
 
 ![image](https://user-images.githubusercontent.com/58041699/181391532-1581b7ac-a7a7-46c3-a77a-3cb8139ad7b6.png)
