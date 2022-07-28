@@ -38,3 +38,8 @@ Mobile App Development to show cv with XAMARIN
 ![image](https://user-images.githubusercontent.com/58041699/181391555-d59f9aa2-a2e4-431b-995e-b03b23ac7fbe.png)
 
 ![image](https://user-images.githubusercontent.com/58041699/181391590-ff82e195-5e1a-4643-aabe-5fa72dc27533.png)
+
+# Pruebas de funcionalidad del APK en celular Samsung Galaxy J6
+
+![celu_main](https://user-images.githubusercontent.com/58127103/181396125-63439508-de6c-4fd8-ac51-a7316358965f.png)
+
